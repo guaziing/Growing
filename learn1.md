@@ -22,4 +22,4 @@ absolute static realtive fixed
 
 ## 语义化
 新增的元素：
-article aside(主内容之外的某些内容（比如侧栏）) details(查看隐藏细节与summary搭配) figcaption(对图片作解释) figure(与图片搭配的标题很常见。) footer header main mark nac progress section(节) summary(细节名字) time
+article aside(主内容之外的某些内容（比如侧栏）) details(查看隐藏细节与summary搭配) figcaption(对图片作解释) figure(与图片搭配的标题很常见。) footer header main mark nac progress section(节) summary(细节名字) time 就是这样
