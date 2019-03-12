@@ -1,7 +1,7 @@
 ﻿### 创建项目预热：
 
 > 创建仓库 生成/添加公匙 克隆到本地
-创建项目：
+创建项目：<br/>
 vue init webpack 项目名称（set up unit tests(No) Setup e2e tests with Nightwatch? (n)）
 test （no）
 cd 项目名称
