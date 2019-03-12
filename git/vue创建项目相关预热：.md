@@ -12,7 +12,7 @@ git init <br/>
 git commit -am '相关信息'<br/>
 git remote add origin 地址<br/>
 git pull origin master<br/>
-git push -u origin master<br/>
+git push -u origin master  (如果当前分支与多个主机存在追踪关系，则可以使用-u选项指定一个默认主机，这样后面就可以不加任何参数使用Git push。)<br/>
 
 > 代码上传：(记住必须是在有git灰色文件的文件夹执行)<br/>
 git add .（放在本地缓冲区）<br/>
