@@ -1,4 +1,5 @@
-### HTML头文件的意思
+﻿# HTML头文件及其style scirpt中配置的意思
+## **html**
 ```htmlbars
 <!DOCTYPE html>
 <html lang="en">
@@ -53,3 +54,19 @@ user-scalable:是否可对页面进行缩放，no 禁止缩放
 **&lt;link>标签**        标签定义文档与外部资源的关系
 **&lt;script>标签**        标签定义文档与外部资源的关系，script元素既可以包含脚本语句，也可以通过src属性指向外部脚本文件，-必需的type属性规定脚本的MIME类型
 
+**对于移动端要求：**
+> 设备不能被缩放
+
+
+----------
+## **style**
+```htmlbars
+<style lang="stylus" rel="stylesheet/stylus">
+```
+**rel:**为了让编辑器知道是stylus的语法，不让编辑器认为只是一个错误的代码
+
+## **script**
+```htmlbars
+<script type="text/ecmascript-6"></script>
+```
+**type="text/ecmascript-6"** 让script中支持ES6的语法
