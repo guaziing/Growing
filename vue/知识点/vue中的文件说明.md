@@ -44,4 +44,5 @@ components：放小组件
 
 build：项目打包的webpack的内容
 webpack.bace.conf.js webpack.dev.conf.js webpack.prod.conf.js: 配置基础的webpack配置项 开发环境 线上环境的配置项
+public：导航小标签》maject.json（打包成app的时候有用）
 

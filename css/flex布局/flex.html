@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    * {
+      list-style: none;
+    }
+    .leading {
+      display: flex;
+      width: 1000px;
+      background: lightblue;
+      height: 50px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .main {
+      width: 200px;
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+    }
+    .right {
+      width: 200px;
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;  
+    }
+    .right li {
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="leading">
+    <ul class="main">
+      <li>导航</li>
+      <li>导航</li>
+      <li>导航</li>
+      <li>导航</li>
+      <li>导航</li>
+    </ul>
+    <ul class="right">
+      <li>导航</li>
+      <li>导航</li>
+      <li>导航</li>
+      <li>导航</li>
+      <li>导航</li>
+    </ul>
+  </div>
+</body>
+</html>

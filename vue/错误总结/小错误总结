@@ -1,0 +1,10 @@
+# 小错误总结
+### 组件的引用
+```js
+export default {
+  name: 'Index',
+  components: {
+    'head-i': Head  //在components中前面是该页面使用的组件名称，后面是引入的组件名称（这个组件名是import时的名称）
+  }
+}
+```

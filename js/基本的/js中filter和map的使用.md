@@ -1,4 +1,4 @@
-﻿### js中filter和map的使用
+﻿# js中filter和map的使用
 
 **filter作用:** 它用于把Array的某些元素过滤掉，然后返回剩下的元素。
 

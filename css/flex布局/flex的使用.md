@@ -17,4 +17,4 @@
 10. **flex-basis：numpx**（这个用来设置伸缩基准值，剩余的空间按比率进行伸缩。）
 11. **flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]**(缩写)
 12. **align-self: auto | flex-start | flex-end | center | baseline | stretch**(就对于本身来说的，不影响其他的)
-*以上参考： [https://www.w3cplus.com/css3/a-guide-to-flexbox.html]*
+*以上参考： [https://www.w3cplus.com/css3/a-guide-to-flexbox.html*
